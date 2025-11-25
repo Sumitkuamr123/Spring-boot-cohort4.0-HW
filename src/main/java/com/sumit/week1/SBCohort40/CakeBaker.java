@@ -4,7 +4,6 @@ import com.sumit.week1.SBCohort40.syrup.Syrup;
 import com.sumit.week1.SBCohort40.frosting.Frosting;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 @Component
 public class CakeBaker {
