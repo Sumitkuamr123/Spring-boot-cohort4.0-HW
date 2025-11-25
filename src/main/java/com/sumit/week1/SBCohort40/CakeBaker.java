@@ -11,7 +11,7 @@ public class CakeBaker {
     private final Frosting frosting;
     private final Syrup syrup;
 
-
+// Constructor Injection with Qualifiers
     public CakeBaker(@Qualifier("chocolateFrosting") Frosting frosting, @Qualifier("chocolateSyrup") Syrup syrup) {
         this.frosting = frosting;
         this.syrup = syrup;
