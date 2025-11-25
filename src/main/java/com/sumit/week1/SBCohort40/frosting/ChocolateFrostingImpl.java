@@ -1,0 +1,16 @@
+package com.sumit.week1.SBCohort40.frosting;
+
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+@Component
+@Qualifier("chocolateFrosting")
+public class ChocolateFrostingImpl implements Frosting {
+
+    @Override
+    public String getFrostingType() {
+        return "Chocolate Frosting";
+    }
+}
